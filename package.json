@@ -1,0 +1,34 @@
+{
+  "name": "mentions",
+  "description": "Get user mentions from string or replace user mentions with something else",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/frozzare/mentions",
+  "author": {
+    "name": "Fredrik Forsmo",
+    "email": "fredrik.forsmo@gmail.com",
+    "url": "http://forsmo.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/frozzare/mentions.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "mentions",
+  "files": [
+    "mentions.js"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "mention",
+    "user",
+    "twitter"
+  ]
+}

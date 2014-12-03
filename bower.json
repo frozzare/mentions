@@ -1,0 +1,27 @@
+{
+  "name": "mentions",
+  "description": "Get user mentions from string or replace user mentions with something else",
+  "main": "mentions.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/frozzare/mentions",
+  "authors": [
+    "Fredrik Forsmo <fredrik.forsmo@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "mentions",
+    "user",
+    "twitter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test.js",
+  ]
+}
