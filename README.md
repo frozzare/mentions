@@ -23,7 +23,7 @@ undefined
 > mentions('hello @frozzare ping @user').get()
 ['@frozzare', '@user']
 > mentions('hello @frozzare ping @user').replace(function (mention) {
-    return '<a href="http://twitter.com/' + match.substr(1) + '">' + match + '</a>';
+    return '<a href="http://twitter.com/' + mention.substr(1) + '">' + mention + '</a>';
   });
 > 'hello <a href="http://twitter.com/frozzare">@frozzare</a> ping <a href="http://twitter.com/user">@user</a>'
 ```
