@@ -1,4 +1,4 @@
-# mentions
+# mentions [![Build Status](https://secure.travis-ci.org/frozzare/mentions.png?branch=master)](http://travis-ci.org/frozzare/mentions)
 
 Get user mentions from string or replace user mentions with something else.
 
