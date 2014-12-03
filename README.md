@@ -14,7 +14,7 @@ or with Bower, with AMD and browser support:
 $ bower install mentions
 ```
 
-```
+```javascript
 $ node
 > var mentions = require('mentions');
 undefined
