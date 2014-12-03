@@ -19,9 +19,9 @@ $ node
 > var mentions = require('mentions');
 undefined
 > mentions('hello @frozzare').get()
-[ '@frozzare' ]
+['@frozzare']
 > mentions('hello @frozzare ping @user').get()
-[ '@frozzare', '@user' ]
+['@frozzare', '@user']
 > mentions('hello @frozzare ping @user').replace(function (mention) {
     return '<a href="http://twitter.com/' + match.substr(1) + '">' + match + '</a>';
   });
